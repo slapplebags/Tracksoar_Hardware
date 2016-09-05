@@ -8251,7 +8251,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J$1" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -8315,6 +8314,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <part name="SPI/I2C" library="headers(2mm)" deviceset="1X6" device=""/>
 <part name="SERIAL" library="headers(2mm)" deviceset="1X4" device=""/>
 <part name="U$3" library="headers(2mm)" deviceset="1X2" device=""/>
+<part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8350,7 +8350,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="GND2" gate="1" x="114.3" y="17.78" rot="R270"/>
 <instance part="J$1" gate="1" x="96.52" y="170.18"/>
 <instance part="GND4" gate="1" x="93.98" y="154.94"/>
-<instance part="GND5" gate="1" x="40.64" y="167.64"/>
 <instance part="SUPPLY2" gate="G$1" x="5.08" y="170.18" rot="R180"/>
 <instance part="SUPPLY3" gate="G$1" x="109.22" y="132.08" rot="R90"/>
 <instance part="GND7" gate="1" x="106.68" y="127" rot="R270"/>
@@ -8415,6 +8414,7 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <instance part="SPI/I2C" gate="G$1" x="195.58" y="86.36"/>
 <instance part="SERIAL" gate="G$1" x="228.6" y="86.36"/>
 <instance part="U$3" gate="G$1" x="40.64" y="175.26" rot="R270"/>
+<instance part="GND5" gate="1" x="38.1" y="167.64"/>
 </instances>
 <busses>
 </busses>
@@ -8445,12 +8445,6 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <wire x1="93.98" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 <junction x="109.22" y="175.26"/>
 <junction x="109.22" y="165.1"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="40.64" y1="172.72" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
-<junction x="40.64" y="172.72"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="0V"/>
@@ -8569,6 +8563,13 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <pinref part="SHT21" gate="A" pin="VSS"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <junction x="104.14" y="73.66"/>
+</segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="172.72" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
+<junction x="38.1" y="172.72"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<junction x="38.1" y="170.18"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -8981,10 +8982,10 @@ Single endded antenna. Common with smaller chip antennas. CHIP4 package is the G
 <junction x="7.62" y="139.7"/>
 </segment>
 <segment>
-<label x="38.1" y="167.64" size="1.778" layer="95" rot="R90"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="172.72" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
-<junction x="38.1" y="172.72"/>
+<pinref part="U$3" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="172.72" x2="40.64" y2="170.18" width="0.1524" layer="91"/>
+<junction x="40.64" y="172.72"/>
+<label x="40.64" y="167.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
