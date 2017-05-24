@@ -2678,6 +2678,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="U$3" library="headers(2mm)" package="1X2" value="1X2" x="3.4036" y="16.3068" rot="R90"/>
 <element name="IC1" library="bosch-bme280" package="BME280" value="BME280" x="16.9926" y="6.9088"/>
 <element name="R2" library="SparkFun-Resistors" package="0805" value="4.7k" x="20.066" y="6.8834" rot="R270"/>
+<element name="C6" library="SparkFun-Capacitors" package="0805" value="100nf" x="18.1356" y="10.9728" rot="R270"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2859,6 +2860,7 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="17.2466" y1="7.3406" x2="17.2974" y2="7.2898" width="0.3048" layer="1"/>
 <wire x1="17.2974" y1="7.2898" x2="17.2974" y2="7.9136" width="0.3048" layer="1"/>
 <wire x1="17.2974" y1="7.9136" x2="17.3176" y2="7.9338" width="0.3048" layer="1"/>
+<contactref element="C6" pad="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC2" pad="5"/>
@@ -3055,6 +3057,9 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="19.9156" y1="7.9338" x2="20.066" y2="7.7834" width="0.3048" layer="1"/>
 <wire x1="20.066" y1="7.7834" x2="20.066" y2="7.8994" width="0.3048" layer="1"/>
 <wire x1="20.066" y1="7.8994" x2="21.1836" y2="9.017" width="0.3048" layer="1"/>
+<contactref element="C6" pad="2"/>
+<wire x1="18.1356" y1="10.0728" x2="18.1356" y2="9.3472" width="0.3048" layer="1"/>
+<wire x1="18.1356" y1="9.3472" x2="17.6784" y2="8.89" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U$2" pad="RFOUT"/>
@@ -3437,18 +3442,18 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="18,29,ff677de27dffff7a"/>
 <approved hash="18,29,e8af60126017e8aa"/>
 <approved hash="18,29,64e6d23fe23054e9"/>
-<approved hash="18,29,559ae06a85da4016"/>
 <approved hash="18,29,5df7e09a85f24817"/>
+<approved hash="18,29,559ae06a85da4016"/>
 <approved hash="18,29,23e0f357f34327d5"/>
 <approved hash="18,29,23a0f355f38127f3"/>
-<approved hash="18,29,e5a13c1a3c2fe1b5"/>
 <approved hash="18,29,269a53dbd3dfa69e"/>
 <approved hash="18,29,27a3f75af7092377"/>
+<approved hash="18,29,e5a13c1a3c2fe1b5"/>
 <approved hash="18,29,e5e0cc57cc40e1d6"/>
 <approved hash="18,29,132b99a699981315"/>
 <approved hash="18,29,27a1f71af72f23b5"/>
-<approved hash="18,29,06254b1957a26aa2"/>
 <approved hash="18,29,0e6c4b5757ae621d"/>
+<approved hash="18,29,06254b1957a26aa2"/>
 <approved hash="18,29,571dc590c592571f"/>
 <approved hash="18,29,8b06018b018c8b01"/>
 <approved hash="18,29,cf084d854d86cf0b"/>

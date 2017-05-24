@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8179,6 +8179,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="IC1" library="bosch-bme280" deviceset="BME280" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0805-RES" value="4.7k"/>
+<part name="C6" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nf"/>
+<part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8279,6 +8281,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="IC1" gate="G$1" x="121.92" y="81.28"/>
 <instance part="GND6" gate="1" x="137.16" y="73.66"/>
 <instance part="R2" gate="G$1" x="104.14" y="81.28"/>
+<instance part="C6" gate="G$1" x="58.42" y="144.78" rot="R270"/>
+<instance part="GND11" gate="1" x="66.04" y="144.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8437,6 +8441,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <junction x="134.62" y="76.2"/>
 <junction x="137.16" y="76.2"/>
 </segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="1"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<junction x="63.5" y="144.78"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -8591,6 +8600,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="99.06" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <junction x="99.06" y="81.28"/>
+</segment>
+<segment>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="144.78" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
+<label x="53.34" y="144.78" size="1.778" layer="95" rot="R180"/>
+<junction x="55.88" y="144.78"/>
 </segment>
 </net>
 <net name="N$1" class="0">
