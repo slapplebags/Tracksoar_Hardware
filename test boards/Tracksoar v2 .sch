@@ -12078,6 +12078,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value="1uf"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uf"/>
 <part name="GND19" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uf"/>
+<part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12196,6 +12198,8 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <instance part="C12" gate="G$1" x="17.78" y="73.66" rot="R90"/>
 <instance part="C13" gate="G$1" x="73.66" y="172.72" rot="R270"/>
 <instance part="GND19" gate="1" x="81.28" y="172.72" rot="R90"/>
+<instance part="C14" gate="G$1" x="73.66" y="180.34" rot="R270"/>
+<instance part="GND21" gate="1" x="81.28" y="180.34" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -12401,6 +12405,12 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="78.74" y="172.72"/>
 <junction x="78.74" y="172.72"/>
 </segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="GND21" gate="1" pin="GND"/>
+<junction x="78.74" y="180.34"/>
+<junction x="78.74" y="180.34"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -12579,6 +12589,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C11" gate="G$1" pin="2"/>
 <label x="68.58" y="165.1" size="1.778" layer="95" rot="R180"/>
 <junction x="71.12" y="165.1"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="2"/>
+<label x="68.58" y="180.34" size="1.778" layer="95" rot="R180"/>
+<junction x="71.12" y="180.34"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13031,6 +13046,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="172.72" x2="68.58" y2="172.72" width="0.1524" layer="91"/>
 <junction x="71.12" y="172.72"/>
+<label x="66.04" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
