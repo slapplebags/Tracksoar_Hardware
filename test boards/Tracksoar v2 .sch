@@ -12726,10 +12726,10 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="127" y="7.62"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
-<label x="223.52" y="134.62" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="2_TXD1"/>
-<junction x="220.98" y="134.62"/>
+<wire x1="223.52" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
+<label x="223.52" y="139.7" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="3_RXD1"/>
+<junction x="220.98" y="139.7"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -12911,30 +12911,30 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="TX" class="0">
 <segment>
-<wire x1="60.96" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="PD2(RX)"/>
-<junction x="60.96" y="63.5"/>
-<label x="66.04" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="A" pin="I"/>
 <wire x1="106.68" y1="7.62" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
 <label x="104.14" y="7.62" size="1.778" layer="95"/>
 <junction x="106.68" y="7.62"/>
 </segment>
-</net>
-<net name="RX" class="0">
 <segment>
 <wire x1="60.96" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="PD3(TX)"/>
 <junction x="60.96" y="60.96"/>
 <label x="66.04" y="60.96" size="1.778" layer="95"/>
 </segment>
+</net>
+<net name="RX" class="0">
 <segment>
-<wire x1="223.52" y1="139.7" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
-<label x="223.52" y="139.7" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="3_RXD1"/>
-<junction x="220.98" y="139.7"/>
+<wire x1="60.96" y1="63.5" x2="63.5" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="PD2(RX)"/>
+<junction x="60.96" y="63.5"/>
+<label x="66.04" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="220.98" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
+<label x="223.52" y="134.62" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="2_TXD1"/>
+<junction x="220.98" y="134.62"/>
 </segment>
 </net>
 <net name="N$20" class="0">
