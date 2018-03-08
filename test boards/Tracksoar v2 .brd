@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3832,6 +3832,33 @@ Please make sure your boards conform to these design rules.</description>
 <wire x1="15.4432" y1="4.826" x2="15.4432" y2="5.334" width="0.3048" layer="16"/>
 <wire x1="15.4432" y1="5.334" x2="16.64174375" y2="6.53254375" width="0.3048" layer="16"/>
 <wire x1="16.64174375" y1="6.53254375" x2="16.64174375" y2="6.540728125" width="0.3048" layer="16"/>
+</signal>
+<signal name="THERM">
+<polygon width="0.1524" layer="1" isolate="0.254" thermals="no" rank="3">
+<vertex x="26.6954" y="19.6342"/>
+<vertex x="31.5722" y="19.6088"/>
+<vertex x="31.5722" y="15.113"/>
+<vertex x="31.5976" y="15.0876"/>
+<vertex x="26.6954" y="15.113"/>
+</polygon>
+<polygon width="0.1524" layer="16" isolate="0.254" rank="2">
+<vertex x="26.6954" y="19.6342"/>
+<vertex x="31.5722" y="19.6088"/>
+<vertex x="31.5722" y="15.0876"/>
+<vertex x="26.6954" y="15.113"/>
+</polygon>
+</signal>
+<signal name="N$18">
+<via x="27.2034" y="15.7988" extent="1-16" drill="0.2"/>
+</signal>
+<signal name="N$21">
+<via x="29.083" y="16.129" extent="1-16" drill="0.2"/>
+</signal>
+<signal name="N$22">
+<via x="30.861" y="17.5514" extent="1-16" drill="0.2"/>
+</signal>
+<signal name="N$23">
+<via x="29.4132" y="17.526" extent="1-16" drill="0.2"/>
 </signal>
 </signals>
 <errors>
