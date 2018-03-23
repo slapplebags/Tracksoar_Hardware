@@ -11006,163 +11006,6 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-RF">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find things that send or receive RF- GPS, cellular modules, Bluetooth, WiFi, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="ANTENNA-CHIP2">
-<wire x1="-0.889" y1="0.508" x2="-0.889" y2="-0.508" width="0.2032" layer="21"/>
-<wire x1="0.889" y1="0.508" x2="0.889" y2="-0.508" width="0.2032" layer="21"/>
-<smd name="FEED" x="0" y="1.25" dx="1.7" dy="1" layer="1"/>
-<smd name="P$2" x="0" y="-1.25" dx="1.7" dy="1" layer="1"/>
-</package>
-<package name="ANTENNA-CHIP3">
-<wire x1="-1" y1="3.4" x2="-1" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1" y1="2" x2="-1" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="1" y1="3.4" x2="1" y2="2" width="0.2032" layer="21"/>
-<wire x1="1" y1="2" x2="1" y2="-3.4" width="0.2032" layer="21"/>
-<wire x1="1" y1="2" x2="-1" y2="2" width="0.2032" layer="21"/>
-<smd name="FEED" x="0" y="4.5" dx="1.8" dy="1.5" layer="1"/>
-<smd name="NC" x="0" y="-4.5" dx="1.8" dy="1.5" layer="1"/>
-</package>
-<package name="ANTENNA-CHIP4">
-<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="51"/>
-<wire x1="-4" y1="-1" x2="4" y2="-1" width="0.127" layer="51"/>
-<wire x1="4" y1="-1" x2="4" y2="1" width="0.127" layer="51"/>
-<wire x1="4" y1="1" x2="-4" y2="1" width="0.127" layer="51"/>
-<wire x1="-3" y1="1" x2="3" y2="1" width="0.2032" layer="21"/>
-<wire x1="3" y1="-1" x2="-3" y2="-1" width="0.2032" layer="21"/>
-<circle x="-3" y="0.6" radius="0.1414" width="0.127" layer="21"/>
-<smd name="SIG" x="-4" y="0" dx="1" dy="2" layer="1"/>
-<smd name="NC" x="4" y="0" dx="1" dy="2" layer="1"/>
-<text x="-1.651" y="-0.254" size="0.6096" layer="51">152111</text>
-<text x="-4" y="-2" size="0.4064" layer="27">&gt;VALUE</text>
-<text x="-3.99" y="1.59" size="0.4064" layer="25">&gt;NAME</text>
-</package>
-<package name="ANTENNA-CHIP5">
-<wire x1="-2.413" y1="-1.143" x2="2.413" y2="-1.143" width="0.2032" layer="21"/>
-<wire x1="-2.413" y1="1.143" x2="2.413" y2="1.143" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="0" x2="2.159" y2="0" width="0.2032" layer="21"/>
-<wire x1="2.159" y1="0" x2="1.778" y2="0.381" width="0.2032" layer="21"/>
-<wire x1="2.159" y1="0" x2="1.778" y2="-0.381" width="0.2032" layer="21"/>
-<smd name="FEED" x="-3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
-<smd name="NC" x="3.302" y="0" dx="1.016" dy="2.54" layer="1" rot="R180"/>
-<text x="0.508" y="0.127" size="0.8128" layer="51">AF</text>
-<text x="-2.54" y="0.381" size="0.4064" layer="25">&gt;Name</text>
-<text x="-2.54" y="-0.762" size="0.4064" layer="27">&gt;Value</text>
-</package>
-<package name="ANTENNA-CHIP6">
-<description>Footprint for Part#1575AT43A40</description>
-<wire x1="-2.7" y1="1" x2="2.7" y2="1" width="0.127" layer="21"/>
-<wire x1="-2.7" y1="-1" x2="2.7" y2="-1" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="0.3" x2="-2.6" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-2.6" y1="-0.3" x2="-1.6" y2="-0.3" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="-0.3" x2="-1.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-1.6" y1="0.3" x2="-2.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="51"/>
-<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="51"/>
-<wire x1="-3.5" y1="-1" x2="-3.5" y2="1" width="0.127" layer="51"/>
-<smd name="NC" x="3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
-<smd name="1" x="-3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
-<text x="-3.81" y="1.27" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.7" y="-1.3" size="0.4064" layer="27" rot="R180">&gt;VALUE</text>
-</package>
-<package name="ANTENNA-CHIP_2500AT44M0400">
-<smd name="FEED" x="-4" y="0" dx="1" dy="1.5" layer="1"/>
-<smd name="NC" x="4" y="0" dx="1" dy="1.5" layer="1"/>
-<wire x1="-4" y1="0.5" x2="-2.5" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="0.5" x2="4" y2="0.5" width="0.127" layer="51"/>
-<wire x1="4" y1="0.5" x2="4" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="4" y1="-0.5" x2="-2.5" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-2.5" y1="-0.5" x2="-4" y2="-0.5" width="0.127" layer="51"/>
-<wire x1="-4" y1="-0.5" x2="-4" y2="0.5" width="0.127" layer="51"/>
-<wire x1="-3.1" y1="0.5" x2="-2.5" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="3.1" y2="0.5" width="0.2032" layer="21"/>
-<wire x1="3.1" y1="-0.5" x2="-2.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="-0.5" x2="-3.1" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="-2.5" y2="-0.5" width="0.2032" layer="21"/>
-<wire x1="-2.5" y1="0.5" x2="-2.5" y2="-0.5" width="0.127" layer="51"/>
-<text x="-3.302" y="1.016" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-3.302" y="-1.524" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="ANTENNA2">
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="1.27" y="0" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ANTENNA2">
-<description>&lt;b&gt;Chip antenna&lt;/b&gt;&lt;p&gt;
-Single endded antenna. Common with smaller chip antennas. CHIP4 package is the GPS Chip Antenna &lt;b&gt;SKU:&lt;/b&gt; GPS-08418. CHIP5 package is 2.4GHz chip antenna &lt;b&gt;SKU:&lt;/b&gt; WRL-00144.</description>
-<gates>
-<gate name="G$1" symbol="ANTENNA2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SMD" package="ANTENNA-CHIP2">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD2" package="ANTENNA-CHIP3">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD3" package="ANTENNA-CHIP4">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="SIG"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD5" package="ANTENNA-CHIP5">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="SMD6" package="ANTENNA-CHIP6">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="2500AT44M0400" package="ANTENNA-CHIP_2500AT44M0400">
-<connects>
-<connect gate="G$1" pin="SIGNAL" pad="FEED"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="headers(2mm)">
 <packages>
 <package name="1X8">
@@ -12630,6 +12473,141 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-GPS" urn="urn:adsk.eagle:library:518">
+<description>&lt;h3&gt;SparkFun GPS, Antennas&lt;/h3&gt;
+This library contains GPS modules, GPS antennas, etc. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="ANT-GPS-2X7MM" urn="urn:adsk.eagle:footprint:38579/1" library_version="1">
+<description>&lt;h3&gt;GPS Chip Antenna - 7.0 x 2.0 x 0.8 mm&lt;/h3&gt;
+&lt;p&gt;7.0 x 2.0 x 0.8 mm package&lt;/p&gt;
+&lt;p&gt;Package used for Johanson 1575AT43A40 GPS Antenna&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/GPS/JTI_Antenna-1575AT43A40_2006-09.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-2.7" y1="1.1" x2="2.7" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="-2.7" y1="-1.1" x2="2.7" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="0.3" x2="-2.6" y2="-0.3" width="0.2032" layer="21"/>
+<wire x1="-2.6" y1="-0.3" x2="-1.6" y2="-0.3" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="-0.3" x2="-1.6" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="0.3" x2="-2.6" y2="0.3" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="1" x2="3.5" y2="1" width="0.127" layer="51"/>
+<wire x1="3.5" y1="1" x2="3.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="-1" x2="-3.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-4.1" y1="1" x2="-4.1" y2="-1" width="0.2032" layer="21"/>
+<smd name="NC" x="3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
+<smd name="1" x="-3.4" y="0" dx="2" dy="0.75" layer="1" rot="R90"/>
+<text x="0" y="1.243" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.243" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+</package>
+<package name="ANT-GPS-2X8MM" urn="urn:adsk.eagle:footprint:38578/1" library_version="1">
+<description>&lt;h3&gt;GPS Chip Antenna - 2.0 x 8.0 x 1.5 mm&lt;/h3&gt;
+&lt;p&gt;2.0 x 8.0 x 1.5 mm package&lt;/p&gt;
+&lt;p&gt;Package used for Chant Sincere Co. 922D03E15X11113 GPS Antenna&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.sparkfun.com/datasheets/GPS/GPS-ChipAntenna.pdf"&gt;Example Datasheet&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-4" y1="1" x2="-4" y2="-1" width="0.127" layer="51"/>
+<wire x1="-4" y1="-1" x2="4" y2="-1" width="0.127" layer="51"/>
+<wire x1="4" y1="-1" x2="4" y2="1" width="0.127" layer="51"/>
+<wire x1="4" y1="1" x2="-4" y2="1" width="0.127" layer="51"/>
+<wire x1="-3" y1="1.1" x2="3" y2="1.1" width="0.2032" layer="21"/>
+<wire x1="3" y1="-1.1" x2="-3" y2="-1.1" width="0.2032" layer="21"/>
+<wire x1="-4.7" y1="1" x2="-4.7" y2="-1" width="0.2032" layer="21"/>
+<circle x="-3" y="0.6" radius="0.254" width="0" layer="21"/>
+<smd name="SIG" x="-4" y="0" dx="1" dy="2" layer="1"/>
+<smd name="NC" x="4" y="0" dx="1" dy="2" layer="1"/>
+<text x="0" y="0" size="0.6096" layer="51" font="vector" align="center">152111</text>
+<text x="0" y="-1.243" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<text x="0" y="1.243" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="ANT-GPS-2X7MM" urn="urn:adsk.eagle:package:38594/1" type="box" library_version="1">
+<description>GPS Chip Antenna - 7.0 x 2.0 x 0.8 mm
+7.0 x 2.0 x 0.8 mm package
+Package used for Johanson 1575AT43A40 GPS Antenna
+Example Datasheet</description>
+<packageinstances>
+<packageinstance name="ANT-GPS-2X7MM"/>
+</packageinstances>
+</package3d>
+<package3d name="ANT-GPS-2X8MM" urn="urn:adsk.eagle:package:38593/1" type="box" library_version="1">
+<description>GPS Chip Antenna - 2.0 x 8.0 x 1.5 mm
+2.0 x 8.0 x 1.5 mm package
+Package used for Chant Sincere Co. 922D03E15X11113 GPS Antenna
+Example Datasheet</description>
+<packageinstances>
+<packageinstance name="ANT-GPS-2X8MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="ANTENNA" urn="urn:adsk.eagle:symbol:38577/1" library_version="1">
+<description>&lt;h3&gt;Antenna&lt;/h3&gt;</description>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+<text x="0.508" y="0" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="0.508" y="-2.54" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<pin name="SIGNAL" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ANTENNA" urn="urn:adsk.eagle:component:38600/1" library_version="1">
+<description>&lt;h3&gt;Single-ended Antennae&lt;/h3&gt;
+&lt;p&gt;1.575GHz antennae with just one terminal. These are all chip antennae.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;1575MHz (GPS) Antennae&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;ANT-GPS-2X7MM&lt;/b&gt; - 2.0 x 7.0 mm chip antenna. (&lt;a href="https://www.sparkfun.com/products/9131"&gt;SparkFun Product&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;ANT-GPS-2X8MM&lt;/b&gt; - 2.0 x 8.0 mm chip antenna. (&lt;a href="https://www.sparkfun.com/products/8418"&gt;SparkFun Product&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ANTENNA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="GPS-2X8MM" package="ANT-GPS-2X8MM">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="SIG"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38593/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="GPS-08510"/>
+<attribute name="SF_ID" value="GPS-08418"/>
+<attribute name="VALUE" value="1.575GHz"/>
+</technology>
+</technologies>
+</device>
+<device name="GPS-2X7MM" package="ANT-GPS-2X7MM">
+<connects>
+<connect gate="G$1" pin="SIGNAL" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38594/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="ANT-09087"/>
+<attribute name="SF_ID" value="GPS-09131"/>
+<attribute name="VALUE" value="1.575GHz"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -12642,7 +12620,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <parts>
 <part name="U$2" library="Ava" deviceset="RADIOMETRIX-HX1" device=""/>
 <part name="J$1" library="SparkFun-Connectors" deviceset="SMA_EDGE" device=""/>
-<part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0402" value="1k"/>
@@ -12683,13 +12660,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C8" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uf"/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GPS-ANT" library="SparkFun-RF" deviceset="ANTENNA2" device="SMD3"/>
+<part name="GPS-ANT" library="SparkFun-GPS" library_urn="urn:adsk.eagle:library:518" deviceset="ANTENNA" device="GPS-2X7MM" package3d_urn="urn:adsk.eagle:package:38594/1" value="1.575GHz"/>
 <part name="FTDI" library="headers(2mm)" deviceset="1X8" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="IC1" library="bosch-bme280" deviceset="BME280" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0402" value="4.7k"/>
-<part name="U$4" library="SparkFun-DigitalIC" deviceset="ATMEGA32U4" device="QFN2"/>
+<part name="U$4" library="SparkFun-DigitalIC" deviceset="ATMEGA32U4" device="QFN2" value="ATMEGA32U4"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="VCC" device=""/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-MICROB"/>
@@ -12734,6 +12711,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0402" value="10k"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R16" library="adafruit" deviceset="R-US_" device="R0402" value="10k"/>
+<part name="U$7" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0402_N" package3d_urn="urn:adsk.eagle:package:169047/1"/>
+<part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uf"/>
+<part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12761,7 +12742,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instances>
 <instance part="U$2" gate="G$1" x="111.76" y="134.62" rot="R270"/>
 <instance part="J$1" gate="1" x="96.52" y="170.18"/>
-<instance part="GND4" gate="1" x="93.98" y="154.94"/>
 <instance part="SUPPLY3" gate="G$1" x="109.22" y="132.08" rot="R90"/>
 <instance part="GND7" gate="1" x="106.68" y="127" rot="R270"/>
 <instance part="R1" gate="G$1" x="160.02" y="78.74" rot="R270"/>
@@ -12860,32 +12840,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R15" gate="G$1" x="139.7" y="25.4" rot="R90"/>
 <instance part="GND1" gate="1" x="139.7" y="7.62"/>
 <instance part="R16" gate="G$1" x="233.68" y="134.62" rot="R180"/>
+<instance part="U$7" gate="L$1" x="68.58" y="116.84" rot="R90"/>
+<instance part="GND17" gate="1" x="58.42" y="116.84" rot="R270"/>
+<instance part="C2" gate="G$1" x="71.12" y="127" rot="R270"/>
+<instance part="GND2" gate="1" x="78.74" y="127" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="J$1" gate="1" pin="GND@3"/>
-<pinref part="GND4" gate="1" pin="GND"/>
-<pinref part="J$1" gate="1" pin="GND@0"/>
-<wire x1="93.98" y1="165.1" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
-<junction x="93.98" y="165.1"/>
-<pinref part="J$1" gate="1" pin="GND@1"/>
-<junction x="93.98" y="162.56"/>
-<wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="J$1" gate="1" pin="GND@2"/>
-<junction x="93.98" y="160.02"/>
-<wire x1="93.98" y1="160.02" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
-<junction x="93.98" y="157.48"/>
-<pinref part="U$2" gate="G$1" pin="RFGND2"/>
-<wire x1="109.22" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="RFGND"/>
-<wire x1="93.98" y1="165.1" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
-<junction x="109.22" y="175.26"/>
-<junction x="109.22" y="165.1"/>
-</segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="0V"/>
 <pinref part="GND7" gate="1" pin="GND"/>
@@ -13074,6 +13037,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND1" gate="1" pin="GND"/>
 <junction x="139.7" y="10.16"/>
 </segment>
+<segment>
+<pinref part="U$7" gate="L$1" pin="1"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<junction x="60.96" y="116.84"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<junction x="76.2" y="127"/>
+</segment>
 </net>
 <net name="D3" class="0">
 <segment>
@@ -13192,6 +13165,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
 <junction x="50.8" y="172.72"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
+<junction x="68.58" y="127"/>
+<label x="63.5" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V" class="0">
@@ -13785,6 +13764,34 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="220.98" y="134.62"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <junction x="228.6" y="134.62"/>
+</segment>
+</net>
+<net name="RFGND" class="0">
+<segment>
+<pinref part="J$1" gate="1" pin="GND@3"/>
+<pinref part="J$1" gate="1" pin="GND@0"/>
+<wire x1="93.98" y1="165.1" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
+<junction x="93.98" y="165.1"/>
+<pinref part="J$1" gate="1" pin="GND@1"/>
+<junction x="93.98" y="162.56"/>
+<wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="J$1" gate="1" pin="GND@2"/>
+<junction x="93.98" y="160.02"/>
+<wire x1="93.98" y1="160.02" x2="93.98" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="RFGND2"/>
+<wire x1="109.22" y1="165.1" x2="93.98" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="RFGND"/>
+<wire x1="93.98" y1="165.1" x2="93.98" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
+<junction x="109.22" y="175.26"/>
+<junction x="109.22" y="165.1"/>
+<junction x="93.98" y="157.48"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="L$1" pin="2"/>
+<wire x1="76.2" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
+<label x="76.2" y="116.84" size="1.778" layer="95"/>
+<junction x="76.2" y="116.84"/>
 </segment>
 </net>
 </nets>
