@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.0">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -11998,36 +11998,24 @@ IPC Nominal Density</description>
 0402 (imperial)
 1005 (metric)
 IPC High Density</description>
-<packageinstances>
-<packageinstance name="RESC0402_L"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0201_L" urn="urn:adsk.eagle:package:169045/1" type="box" library_version="6">
 <description>0201 chip
 0201 (imperial)
 0603 (metric)
 IPC High Density</description>
-<packageinstances>
-<packageinstance name="RESC0201_L"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0201_M" urn="urn:adsk.eagle:package:169046/1" type="box" library_version="6">
 <description>0201 chip
 0201 (imperial)
 0603 (metric)
 IPC Low Density</description>
-<packageinstances>
-<packageinstance name="RESC0201_M"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0201_N" urn="urn:adsk.eagle:package:169050/1" type="box" library_version="6">
 <description>0201 chip
 0201 (imperial)
 0603 (metric)
 IPC Nominal Density</description>
-<packageinstances>
-<packageinstance name="RESC0201_N"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0402_M" urn="urn:adsk.eagle:package:169048/1" type="box" library_version="6">
 <description>0402 chip 
@@ -12035,9 +12023,6 @@ IPC Nominal Density</description>
 0402 (imperial)
 1005 (metric)
 IPC Low Density</description>
-<packageinstances>
-<packageinstance name="RESC0402_M"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0402_N" urn="urn:adsk.eagle:package:169047/1" type="box" library_version="6">
 <description>0402 chip 
@@ -12045,9 +12030,6 @@ IPC Low Density</description>
 0402 (imperial)
 1005 (metric)
 IPC Nominal Density</description>
-<packageinstances>
-<packageinstance name="RESC0402_N"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0603_L" urn="urn:adsk.eagle:package:169049/1" type="box" library_version="6">
 <description>0603 chip 
@@ -12055,9 +12037,6 @@ IPC Nominal Density</description>
 0603 (imperial)
 1608 (metric)
 IPC High Density</description>
-<packageinstances>
-<packageinstance name="RESC0603_L"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0603_M" urn="urn:adsk.eagle:package:169051/1" type="box" library_version="6">
 <description>0603 chip 
@@ -12065,9 +12044,6 @@ IPC High Density</description>
 0603 (imperial)
 1608 (metric)
 IPC High Density</description>
-<packageinstances>
-<packageinstance name="RESC0603_M"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0603_N" urn="urn:adsk.eagle:package:169054/1" type="box" library_version="6">
 <description>0603 chip 
@@ -12075,9 +12051,6 @@ IPC High Density</description>
 0603 (imperial)
 1608 (metric)
 IPC Nominal Density</description>
-<packageinstances>
-<packageinstance name="RESC0603_N"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0805_L" urn="urn:adsk.eagle:package:169052/1" type="box" library_version="6">
 <description>0805chip
@@ -12085,9 +12058,6 @@ IPC Nominal Density</description>
 0805 (imperial)
 2012 (metric)
 IPC High Density</description>
-<packageinstances>
-<packageinstance name="RESC0805_L"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0805_M" urn="urn:adsk.eagle:package:169055/1" type="box" library_version="6">
 <description>0805chip
@@ -12095,9 +12065,6 @@ IPC High Density</description>
 0805 (imperial)
 2012 (metric)
 IPC Low Density</description>
-<packageinstances>
-<packageinstance name="RESC0805_M"/>
-</packageinstances>
 </package3d>
 <package3d name="RESC0805_N" urn="urn:adsk.eagle:package:169053/1" type="box" library_version="6">
 <description>0805chip
@@ -12105,9 +12072,6 @@ IPC Low Density</description>
 0805 (imperial)
 2012 (metric)
 IPC Nominal Density</description>
-<packageinstances>
-<packageinstance name="RESC0805_N"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12363,30 +12327,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
 <description>Generic 1608 (0603) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0603"/>
-</packageinstances>
 </package3d>
 <package3d name="1206" urn="urn:adsk.eagle:package:37426/1" type="box" library_version="1">
 <description>Generic 3216 (1206) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1206"/>
-</packageinstances>
 </package3d>
 <package3d name="0805" urn="urn:adsk.eagle:package:37429/1" type="box" library_version="1">
 <description>Generic 2012 (0805) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="0805"/>
-</packageinstances>
 </package3d>
 <package3d name="1210" urn="urn:adsk.eagle:package:37436/1" type="box" library_version="1">
 <description>Generic 3225 (1210) package
 0.2mm courtyard excess rounded to nearest 0.05mm.</description>
-<packageinstances>
-<packageinstance name="1210"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12535,18 +12487,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 7.0 x 2.0 x 0.8 mm package
 Package used for Johanson 1575AT43A40 GPS Antenna
 Example Datasheet</description>
-<packageinstances>
-<packageinstance name="ANT-GPS-2X7MM"/>
-</packageinstances>
 </package3d>
 <package3d name="ANT-GPS-2X8MM" urn="urn:adsk.eagle:package:38593/1" type="box" library_version="1">
 <description>GPS Chip Antenna - 2.0 x 8.0 x 1.5 mm
 2.0 x 8.0 x 1.5 mm package
 Package used for Chant Sincere Co. 922D03E15X11113 GPS Antenna
 Example Datasheet</description>
-<packageinstances>
-<packageinstance name="ANT-GPS-2X8MM"/>
-</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -12827,7 +12773,7 @@ Example Datasheet</description>
 <instance part="R12" gate="G$1" x="7.62" y="17.78" rot="R90"/>
 <instance part="GND23" gate="1" x="7.62" y="10.16"/>
 <instance part="U$5" gate="G$1" x="25.4" y="165.1" rot="R90"/>
-<instance part="U$6" gate="L$1" x="35.56" y="160.02" rot="R180"/>
+<instance part="U$6" gate="L$1" x="35.56" y="172.72" rot="R270"/>
 <instance part="SUPPLY11" gate="G$1" x="10.16" y="165.1" rot="R90"/>
 <instance part="SUPPLY12" gate="G$1" x="10.16" y="154.94" rot="R90"/>
 <instance part="GND25" gate="1" x="10.16" y="160.02" rot="R270"/>
@@ -13238,20 +13184,19 @@ Example Datasheet</description>
 <junction x="71.12" y="180.34"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="SW"/>
-<pinref part="U$6" gate="L$1" pin="2"/>
-<wire x1="33.02" y1="162.56" x2="33.02" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="167.64" x2="35.56" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="167.64" x2="38.1" y2="167.64" width="0.1524" layer="91"/>
-<junction x="33.02" y="162.56"/>
-<junction x="35.56" y="167.64"/>
-<label x="40.64" y="167.64" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="68.58" y1="139.7" x2="66.04" y2="139.7" width="0.1524" layer="91"/>
 <junction x="68.58" y="139.7"/>
 <label x="63.5" y="139.7" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="VOUT"/>
+<wire x1="33.02" y1="157.48" x2="43.18" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="L$1" pin="1"/>
+<wire x1="43.18" y1="157.48" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
+<junction x="33.02" y="157.48"/>
+<junction x="43.18" y="172.72"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -13746,16 +13691,6 @@ Example Datasheet</description>
 <label x="63.5" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="U$6" gate="L$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="VOUT"/>
-<wire x1="35.56" y1="152.4" x2="33.02" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="33.02" y1="152.4" x2="33.02" y2="157.48" width="0.1524" layer="91"/>
-<junction x="33.02" y="157.48"/>
-<junction x="35.56" y="152.4"/>
-</segment>
-</net>
 <net name="RX1" class="0">
 <segment>
 <wire x1="220.98" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
@@ -13792,6 +13727,17 @@ Example Datasheet</description>
 <wire x1="76.2" y1="116.84" x2="78.74" y2="116.84" width="0.1524" layer="91"/>
 <label x="76.2" y="116.84" size="1.778" layer="95"/>
 <junction x="76.2" y="116.84"/>
+</segment>
+</net>
+<net name="N$21" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="SW"/>
+<wire x1="33.02" y1="162.56" x2="33.02" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="170.18" x2="27.94" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="L$1" pin="2"/>
+<wire x1="27.94" y1="170.18" x2="27.94" y2="172.72" width="0.1524" layer="91"/>
+<junction x="33.02" y="162.56"/>
+<junction x="27.94" y="172.72"/>
 </segment>
 </net>
 </nets>
