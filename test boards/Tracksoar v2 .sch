@@ -12842,8 +12842,8 @@ Example Datasheet</description>
 <instance part="R16" gate="G$1" x="233.68" y="134.62" rot="R180"/>
 <instance part="U$7" gate="L$1" x="68.58" y="116.84" rot="R90"/>
 <instance part="GND17" gate="1" x="58.42" y="116.84" rot="R270"/>
-<instance part="C2" gate="G$1" x="71.12" y="127" rot="R270"/>
-<instance part="GND2" gate="1" x="78.74" y="127" rot="R90"/>
+<instance part="C2" gate="G$1" x="53.34" y="160.02" rot="R270"/>
+<instance part="GND2" gate="1" x="60.96" y="160.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -13045,7 +13045,7 @@ Example Datasheet</description>
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<junction x="76.2" y="127"/>
+<junction x="58.42" y="160.02"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -13168,9 +13168,9 @@ Example Datasheet</description>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="68.58" y1="127" x2="66.04" y2="127" width="0.1524" layer="91"/>
-<junction x="68.58" y="127"/>
-<label x="63.5" y="127" size="1.778" layer="95"/>
+<wire x1="50.8" y1="160.02" x2="48.26" y2="160.02" width="0.1524" layer="91"/>
+<junction x="50.8" y="160.02"/>
+<label x="45.72" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3V" class="0">
