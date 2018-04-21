@@ -3281,7 +3281,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="-106.5784" y1="13.0302" x2="-107.188" y2="13.6398" width="0.6096" layer="16"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C17" pad="1"/>
-<via x="-113.8682" y="6.6294" extent="1-16" drill="0.6"/>
+<via x="-113.8936" y="8.255" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$2" pad="VCC"/>
