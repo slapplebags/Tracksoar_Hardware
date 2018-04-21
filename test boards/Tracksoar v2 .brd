@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3281,6 +3281,7 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="-106.5784" y1="13.0302" x2="-107.188" y2="13.6398" width="0.6096" layer="16"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C17" pad="1"/>
+<via x="-113.8682" y="6.6294" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="VCC">
 <contactref element="U$2" pad="VCC"/>
@@ -3613,10 +3614,10 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <wire x1="-97.4852" y1="5.0546" x2="-99.9452" y2="2.5692" width="0.3048" layer="16"/>
 <contactref element="U$3" pad="6"/>
 <wire x1="-99.9452" y1="2.5692" x2="-99.9452" y2="1.27" width="0.3048" layer="16"/>
-<wire x1="-102.90600625" y1="7.023425" x2="-101.876978125" y2="5.9944" width="0.3048" layer="16"/>
-<wire x1="-101.876978125" y1="5.9944" x2="-101.1174" y2="5.9944" width="0.3048" layer="16"/>
-<wire x1="-101.1174" y1="5.9944" x2="-100.1014" y2="7.0104" width="0.3048" layer="16"/>
 <wire x1="-100.1014" y1="7.0104" x2="-100.1014" y2="7.112" width="0.3048" layer="16"/>
+<wire x1="-102.90600625" y1="7.023425" x2="-102.35958125" y2="6.477" width="0.3048" layer="16"/>
+<wire x1="-100.6348" y1="6.477" x2="-100.1014" y2="7.0104" width="0.3048" layer="16"/>
+<wire x1="-102.35958125" y1="6.477" x2="-100.6348" y2="6.477" width="0.3048" layer="16"/>
 </signal>
 <signal name="SCL">
 <contactref element="R7" pad="2"/>
@@ -3737,13 +3738,13 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <signal name="N$2">
 <contactref element="IC1" pad="2"/>
 <contactref element="R2" pad="2"/>
-<wire x1="-103.365628125" y1="6.563803125" x2="-102.9716" y2="6.169778125" width="0.3048" layer="16"/>
-<wire x1="-102.9716" y1="6.169778125" x2="-102.9716" y2="5.6896" width="0.3048" layer="16"/>
-<wire x1="-102.9716" y1="5.6896" x2="-103.2812" y2="5.38" width="0.3048" layer="16"/>
-<wire x1="-103.2812" y1="5.38" x2="-103.80376875" y2="5.38" width="0.3048" layer="16"/>
-<wire x1="-103.80376875" y1="5.38" x2="-104.05296875" y2="5.1308" width="0.3048" layer="16"/>
-<wire x1="-104.6226" y1="5.1308" x2="-104.92498125" y2="5.458578125" width="0.3048" layer="16"/>
-<wire x1="-104.05296875" y1="5.1308" x2="-104.6226" y2="5.1308" width="0.3048" layer="16"/>
+<wire x1="-103.365628125" y1="6.563803125" x2="-103.0478" y2="6.245978125" width="0.3048" layer="16"/>
+<wire x1="-103.0478" y1="6.245978125" x2="-103.0478" y2="5.8166" width="0.3048" layer="16"/>
+<wire x1="-103.0478" y1="5.8166" x2="-103.4844" y2="5.38" width="0.3048" layer="16"/>
+<wire x1="-103.4844" y1="5.38" x2="-103.82916875" y2="5.38" width="0.3048" layer="16"/>
+<wire x1="-103.82916875" y1="5.38" x2="-104.12916875" y2="5.08" width="0.3048" layer="16"/>
+<wire x1="-104.5464" y1="5.08" x2="-104.92498125" y2="5.458578125" width="0.3048" layer="16"/>
+<wire x1="-104.12916875" y1="5.08" x2="-104.5464" y2="5.08" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="JP1" pad="D-"/>
