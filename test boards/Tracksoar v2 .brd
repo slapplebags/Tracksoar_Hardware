@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.7.1">
+<eagle version="8.7.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -555,6 +555,9 @@
 <text x="-99.695" y="17.4498" size="0.6096" layer="25" rot="R270">5V</text>
 <text x="-108.204" y="15.6718" size="0.8128" layer="25">RX</text>
 <text x="-108.077" y="17.8308" size="0.8128" layer="25">TX</text>
+<wire x1="-88.4428" y1="10.5918" x2="-87.249" y2="10.5918" width="0.6096" layer="26"/>
+<wire x1="-113.8428" y1="14.5034" x2="-113.8428" y2="13.843" width="0.3048" layer="26"/>
+<wire x1="-114.1476" y1="14.1732" x2="-113.4872" y2="14.1732" width="0.3048" layer="26"/>
 </plain>
 <libraries>
 <library name="Ava">
