@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13005,8 +13005,8 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uf"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C3" library="DSK-3R3H204T614-H2L" deviceset="DSK-3R3H204T614-H2L" device=""/>
-<part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-123"/>
+<part name="C3" library="DSK-3R3H204T614-H2L" deviceset="DSK-3R3H204T614-H2L" device="" value="GPS BACKUP"/>
+<part name="D2" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-123" value="SD101CW"/>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0402" value="330"/>
 <part name="C17" library="SparkFun-Capacitors" deviceset="CAP" device="0402-CAP" value=".1uf"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -13140,12 +13140,12 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 <instance part="GND17" gate="1" x="58.42" y="116.84" rot="R270"/>
 <instance part="C2" gate="G$1" x="53.34" y="160.02" rot="R270"/>
 <instance part="GND2" gate="1" x="60.96" y="160.02" rot="R90"/>
-<instance part="C3" gate="G$1" x="106.68" y="10.16"/>
-<instance part="D2" gate="G$1" x="91.44" y="10.16"/>
-<instance part="R17" gate="G$1" x="99.06" y="10.16"/>
-<instance part="C17" gate="G$1" x="106.68" y="12.7"/>
-<instance part="GND4" gate="1" x="106.68" y="20.32" rot="R180"/>
-<instance part="GND33" gate="1" x="121.92" y="7.62"/>
+<instance part="C3" gate="G$1" x="109.22" y="10.16"/>
+<instance part="D2" gate="G$1" x="93.98" y="10.16"/>
+<instance part="R17" gate="G$1" x="101.6" y="10.16"/>
+<instance part="C17" gate="G$1" x="109.22" y="12.7"/>
+<instance part="GND4" gate="1" x="109.22" y="20.32" rot="R180"/>
+<instance part="GND33" gate="1" x="124.46" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -13351,15 +13351,15 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="119.38" y1="10.16" x2="121.92" y2="10.16" width="0.1524" layer="91"/>
-<junction x="119.38" y="10.16"/>
-<pinref part="GND33" gate="1" pin="GND"/>
+<wire x1="121.92" y1="10.16" x2="124.46" y2="10.16" width="0.1524" layer="91"/>
 <junction x="121.92" y="10.16"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+<junction x="124.46" y="10.16"/>
 </segment>
 <segment>
 <pinref part="C17" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<junction x="106.68" y="17.78"/>
+<junction x="109.22" y="17.78"/>
 </segment>
 </net>
 <net name="D3" class="0">
@@ -13564,8 +13564,8 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="88.9" y1="10.16" x2="86.36" y2="10.16" width="0.1524" layer="91"/>
-<junction x="88.9" y="10.16"/>
+<wire x1="91.44" y1="10.16" x2="88.9" y2="10.16" width="0.1524" layer="91"/>
+<junction x="91.44" y="10.16"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -14118,10 +14118,10 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="106.68" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
-<junction x="106.68" y="10.16"/>
+<wire x1="109.22" y1="10.16" x2="106.68" y2="10.16" width="0.1524" layer="91"/>
+<junction x="109.22" y="10.16"/>
 <pinref part="R17" gate="G$1" pin="2"/>
-<junction x="104.14" y="10.16"/>
+<junction x="106.68" y="10.16"/>
 <pinref part="C17" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -14129,7 +14129,7 @@ Source: &lt;a href="http://www.elna.co.jp/en/capacitor/double_layer/catalog/pdf/
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="D2" gate="G$1" pin="C"/>
-<junction x="93.98" y="10.16"/>
+<junction x="96.52" y="10.16"/>
 </segment>
 </net>
 </nets>
