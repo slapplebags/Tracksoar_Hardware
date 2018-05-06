@@ -579,7 +579,7 @@
 <text x="8.9154" y="13.8684" size="0.8128" layer="25">SS</text>
 <text x="5.6134" y="13.8684" size="0.8128" layer="25">MOSI</text>
 <text x="2.3876" y="13.9192" size="0.8128" layer="25">MISO</text>
-<text x="0.5588" y="13.8938" size="0.8128" layer="25">SS</text>
+<text x="-0.4318" y="13.843" size="0.8128" layer="25">SCK</text>
 <text x="-2.1082" y="7.2898" size="1.016" layer="25">Tracksoar</text>
 <text x="-2.4892" y="5.8928" size="0.8128" layer="25">Breakout V2</text>
 <wire x1="15.9766" y1="15.24" x2="-1.2192" y2="15.24" width="0.3048" layer="25"/>
