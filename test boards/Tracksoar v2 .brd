@@ -167,7 +167,7 @@
 <text x="53.0606" y="7.8232" size="0.8128" layer="25" rot="R180">Tracksoar v2</text>
 <text x="46.5328" y="5.842" size="0.6096" layer="25">&lt;3 Swiss</text>
 <text x="13.7668" y="23.5458" size="0.6096" layer="26" rot="MR270">GND</text>
-<text x="25.7048" y="9.144" size="0.8128" layer="25">I2C</text>
+<text x="26.0604" y="9.0424" size="0.8128" layer="25">I2C</text>
 <text x="20.7772" y="19.9136" size="0.8128" layer="26" rot="MR0">SPI</text>
 <rectangle x1="41.7957" y1="5.7531" x2="41.9481" y2="5.7785" layer="25"/>
 <rectangle x1="41.6179" y1="5.7785" x2="42.1259" y2="5.8039" layer="25"/>
@@ -588,7 +588,7 @@
 <wire x1="47.4218" y1="19.1516" x2="46.609" y2="19.1516" width="0.1524" layer="25"/>
 <wire x1="46.482" y1="18.4658" x2="47.5488" y2="18.4404" width="0.1524" layer="25"/>
 <text x="12.1158" y="18.9484" size="1.778" layer="25">+</text>
-<text x="18.4404" y="7.1882" size="0.6096" layer="25" rot="R90">A1</text>
+<text x="18.0086" y="7.1882" size="0.6096" layer="25" rot="R90">A1</text>
 </plain>
 <libraries>
 <library name="Ava">
