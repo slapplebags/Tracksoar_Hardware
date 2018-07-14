@@ -600,6 +600,92 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="memory-winbond">
+<description>&lt;b&gt;Winbond Memories&lt;/b&gt;&lt;p&gt;
+&lt;p&gt;THIS LIBRARY IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED. USE AT YOUR OWN RISK!&lt;p&gt;
+&lt;author&gt;Copyright (C) 2010, Bob Starr&lt;br&gt; http://www.bobstarr.net&lt;br&gt;&lt;/author&gt;</description>
+<packages>
+<package name="SON-8-50P-300W-200L-100H-40F-20EW-165EL">
+<description>&lt;b&gt;SON (0.50mm pitch, 0.40mm lead length, 2mm length, 3mm width, 1.00mm max height, 8 leads)&lt;/b&gt;&lt;p&gt;
+Small outline no-lead package. 0.50mm pitch, 0.40mm lead length 2mm length, 3mm width, 1.00mm max height, 8 leads.
+&lt;/p&gt;
+&lt;p&gt;Non-standard, based on JEDEC MO-229F variation V2030D-2, HVF-PSON.&lt;/p&gt;</description>
+<rectangle x1="-1.5" y1="-1.6" x2="-1.1" y2="-1.2" layer="21"/>
+<rectangle x1="-0.875" y1="-1.5" x2="-0.625" y2="-1.1" layer="51"/>
+<rectangle x1="-0.875" y1="1.1" x2="-0.625" y2="1.5" layer="51"/>
+<rectangle x1="-0.65" y1="-0.1" x2="0.65" y2="0.1" layer="29"/>
+<rectangle x1="-0.5438" y1="-0.0837" x2="0.5438" y2="0.0837" layer="31"/>
+<rectangle x1="-0.375" y1="-1.5" x2="-0.125" y2="-1.1" layer="51"/>
+<rectangle x1="-0.375" y1="1.1" x2="-0.125" y2="1.5" layer="51"/>
+<rectangle x1="0.125" y1="-1.5" x2="0.375" y2="-1.1" layer="51"/>
+<rectangle x1="0.125" y1="1.1" x2="0.375" y2="1.5" layer="51"/>
+<rectangle x1="0.625" y1="-1.5" x2="0.875" y2="-1.1" layer="51"/>
+<rectangle x1="0.625" y1="1.1" x2="0.875" y2="1.5" layer="51"/>
+<smd name="1" x="-0.75" y="-1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="2" x="-0.25" y="-1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="3" x="0.25" y="-1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="4" x="0.75" y="-1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="5" x="0.75" y="1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="6" x="0.25" y="1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="7" x="-0.25" y="1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="8" x="-0.75" y="1.4" dx="0.3" dy="0.7" layer="1" roundness="100"/>
+<smd name="EP" x="0" y="0" dx="1.5" dy="0.4" layer="1" stop="no" cream="no"/>
+<text x="-0.5" y="-3.5" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.5" y="2.5" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<wire x1="-1.15" y1="-1.6" x2="1.15" y2="-1.6" width="0.2032" layer="51"/>
+<wire x1="-1.15" y1="1.6" x2="-1.1" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="-1.15" y1="1.6" x2="1.15" y2="1.6" width="0.2032" layer="51"/>
+<wire x1="-1.1" y1="-1.6" x2="-1.15" y2="-1.6" width="0.2032" layer="21"/>
+<wire x1="-1.1" y1="-1.6" x2="-1.1" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="-1.6" x2="1.1" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.1" y1="1.6" x2="1.15" y2="1.6" width="0.2032" layer="21"/>
+<wire x1="1.15" y1="-1.6" x2="1.1" y2="-1.6" width="0.2032" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:39650/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -782,6 +868,31 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="14.3764" y="-8.1534"/>
 <element name="FTDI" library="headers(2mm)" package="1X8" value="1X8" x="-1.1938" y="18.3642" rot="MR180"/>
 <element name="U$3" library="headers(2mm)" package="1X6" value="1X6" x="-2.0066" y="1.2446" rot="MR0"/>
+<element name="U1" library="memory-winbond" package="SON-8-50P-300W-200L-100H-40F-20EW-165EL" value="W25X20CLUX" x="-1.1938" y="8.5598"/>
+<element name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k" x="4.1402" y="4.7498">
+<attribute name="PROD_ID" value="RES-00824" x="4.1402" y="4.7498" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k" x="-7.0612" y="11.7348" rot="R180">
+<attribute name="PROD_ID" value="RES-00824" x="-7.0612" y="11.7348" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="1.8034" y="14.5288" rot="R270">
+<attribute name="PROD_ID" value=" " x="1.8034" y="14.5288" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="-2.2098" y="14.5034" rot="R270">
+<attribute name="PROD_ID" value=" " x="-2.2098" y="14.5034" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="4.1148" y="6.4516" rot="R180">
+<attribute name="PROD_ID" value=" " x="4.1148" y="6.4516" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="-7.0866" y="9.9822" rot="R180">
+<attribute name="PROD_ID" value=" " x="-7.0866" y="9.9822" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="-4.191" y="14.5034" rot="R90">
+<attribute name="PROD_ID" value=" " x="-4.191" y="14.5034" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value=" " x="-0.1524" y="14.478" rot="R90">
+<attribute name="PROD_ID" value=" " x="-0.1524" y="14.478" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -792,6 +903,11 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="16.383" y="0"/>
 <vertex x="-27.7114" y="0"/>
 </polygon>
+<contactref element="R5" pad="1"/>
+<wire x1="4.9648" y1="6.4516" x2="5.5626" y2="6.4516" width="0.3048" layer="1"/>
+<wire x1="5.5626" y1="6.4516" x2="5.8166" y2="6.7056" width="0.3048" layer="1"/>
+<wire x1="5.8166" y1="6.7056" x2="5.8166" y2="18.3538" width="0.3048" layer="1"/>
+<wire x1="5.8166" y1="18.3538" x2="5.8062" y2="18.3642" width="0.3048" layer="1"/>
 </signal>
 <signal name="VCC">
 <contactref element="FTDI" pad="2"/>
@@ -801,6 +917,19 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <vertex x="16.383" y="-0.0762"/>
 <vertex x="-27.7368" y="-0.0762"/>
 </polygon>
+<contactref element="R2" pad="2"/>
+<contactref element="R1" pad="2"/>
+<contactref element="R6" pad="2"/>
+<wire x1="-6.1938" y1="18.3642" x2="-6.1938" y2="14.4818" width="0.3048" layer="1"/>
+<wire x1="-7.9112" y1="12.7644" x2="-7.9112" y2="11.7348" width="0.3048" layer="1"/>
+<wire x1="-6.1938" y1="14.4818" x2="-7.9112" y2="12.7644" width="0.3048" layer="1"/>
+<wire x1="-7.9112" y1="11.7348" x2="-7.9112" y2="10.0076" width="0.3048" layer="1"/>
+<wire x1="-7.9112" y1="10.0076" x2="-7.9366" y2="9.9822" width="0.3048" layer="1"/>
+<wire x1="-7.9366" y1="9.9822" x2="-7.9366" y2="4.2536" width="0.3048" layer="1"/>
+<wire x1="-7.9366" y1="4.2536" x2="-6.7564" y2="3.0734" width="0.3048" layer="1"/>
+<wire x1="-6.7564" y1="3.0734" x2="4.3942" y2="3.0734" width="0.3048" layer="1"/>
+<wire x1="4.9902" y1="3.6694" x2="4.9902" y2="4.7498" width="0.3048" layer="1"/>
+<wire x1="4.3942" y1="3.0734" x2="4.9902" y2="3.6694" width="0.3048" layer="1"/>
 </signal>
 <signal name="3V">
 <contactref element="FTDI" pad="1"/>
@@ -813,15 +942,27 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 </signal>
 <signal name="MISO">
 <contactref element="FTDI" pad="4"/>
+<contactref element="R4" pad="1"/>
+<wire x1="-2.1938" y1="18.3642" x2="-2.1938" y2="15.3694" width="0.3048" layer="1"/>
+<wire x1="-2.1938" y1="15.3694" x2="-2.2098" y2="15.3534" width="0.3048" layer="1"/>
 </signal>
 <signal name="MOSI">
 <contactref element="FTDI" pad="5"/>
+<contactref element="R8" pad="2"/>
+<wire x1="-0.1938" y1="18.3642" x2="-0.1938" y2="15.3694" width="0.3048" layer="1"/>
+<wire x1="-0.1938" y1="15.3694" x2="-0.1524" y2="15.328" width="0.3048" layer="1"/>
 </signal>
 <signal name="SCK">
 <contactref element="FTDI" pad="3"/>
+<contactref element="R7" pad="2"/>
+<wire x1="-4.1938" y1="18.3642" x2="-4.1938" y2="15.3562" width="0.3048" layer="1"/>
+<wire x1="-4.1938" y1="15.3562" x2="-4.191" y2="15.3534" width="0.3048" layer="1"/>
 </signal>
 <signal name="SS">
 <contactref element="FTDI" pad="6"/>
+<contactref element="R3" pad="1"/>
+<wire x1="1.8062" y1="18.3642" x2="1.8062" y2="15.3816" width="0.3048" layer="1"/>
+<wire x1="1.8062" y1="15.3816" x2="1.8034" y2="15.3788" width="0.3048" layer="1"/>
 </signal>
 <signal name="N$15">
 </signal>
@@ -860,7 +1001,103 @@ This DRC check is for 4-Layer Standard Capability boards to be manufactured thro
 <signal name="A1">
 <contactref element="U$3" pad="1"/>
 </signal>
+<signal name="N$1">
+<contactref element="U1" pad="3"/>
+<contactref element="R1" pad="1"/>
+<wire x1="-0.9438" y1="7.1598" x2="-0.9438" y2="6.3286" width="0.3048" layer="1"/>
+<wire x1="0.635" y1="4.7498" x2="3.2902" y2="4.7498" width="0.3048" layer="1"/>
+<wire x1="-0.9438" y1="6.3286" x2="0.635" y2="4.7498" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$2">
+<contactref element="U1" pad="7"/>
+<contactref element="R2" pad="1"/>
+<wire x1="-1.4438" y1="9.9598" x2="-1.4438" y2="10.8164" width="0.3048" layer="1"/>
+<wire x1="-1.4438" y1="10.8164" x2="-1.8034" y2="11.176" width="0.3048" layer="1"/>
+<wire x1="-1.8034" y1="11.176" x2="-5.1308" y2="11.176" width="0.3048" layer="1"/>
+<wire x1="-5.6896" y1="11.7348" x2="-6.2112" y2="11.7348" width="0.3048" layer="1"/>
+<wire x1="-5.1308" y1="11.176" x2="-5.6896" y2="11.7348" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$3">
+<contactref element="U1" pad="1"/>
+<contactref element="R3" pad="2"/>
+<wire x1="-1.9438" y1="7.1598" x2="-1.9438" y2="6.3366" width="0.3048" layer="1"/>
+<wire x1="-1.9438" y1="6.3366" x2="-3.429" y2="4.8514" width="0.3048" layer="1"/>
+<wire x1="-3.429" y1="4.8514" x2="-3.4544" y2="4.8514" width="0.3048" layer="1"/>
+<via x="-3.4544" y="4.8514" extent="1-16" drill="0.35"/>
+<wire x1="-3.4544" y1="4.8514" x2="-3.4544" y2="4.064" width="0.3048" layer="16"/>
+<wire x1="-3.4544" y1="4.064" x2="-2.3622" y2="2.9718" width="0.3048" layer="16"/>
+<wire x1="-2.3622" y1="2.9718" x2="1.2446" y2="2.9718" width="0.3048" layer="16"/>
+<wire x1="1.2446" y1="2.9718" x2="1.8034" y2="3.5306" width="0.3048" layer="16"/>
+<via x="1.8034" y="11.811" extent="1-16" drill="0.35"/>
+<wire x1="1.8034" y1="11.811" x2="1.8034" y2="13.6788" width="0.3048" layer="1"/>
+<wire x1="1.8034" y1="3.5306" x2="1.8034" y2="11.811" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$6">
+<contactref element="U1" pad="2"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-2.2098" y1="13.6534" x2="-2.2098" y2="12.4968" width="0.3048" layer="1"/>
+<wire x1="-2.2098" y1="12.4968" x2="-2.1844" y2="12.4714" width="0.3048" layer="1"/>
+<wire x1="-2.1844" y1="12.4714" x2="-2.1844" y2="12.3698" width="0.3048" layer="1"/>
+<wire x1="-2.1844" y1="12.3698" x2="-2.2098" y2="12.3444" width="0.3048" layer="1"/>
+<via x="-2.2098" y="12.3444" extent="1-16" drill="0.35"/>
+<wire x1="-2.2098" y1="12.3444" x2="-2.2098" y2="4.6736" width="0.3048" layer="16"/>
+<wire x1="-1.6764" y1="4.1402" x2="-1.6002" y2="4.1402" width="0.3048" layer="16"/>
+<via x="-1.6002" y="4.1402" extent="1-16" drill="0.35"/>
+<wire x1="-1.6002" y1="4.1402" x2="-1.4438" y2="4.2966" width="0.3048" layer="1"/>
+<wire x1="-1.4438" y1="4.2966" x2="-1.4438" y2="7.1598" width="0.3048" layer="1"/>
+<wire x1="-2.2098" y1="4.6736" x2="-1.6764" y2="4.1402" width="0.3048" layer="16"/>
+</signal>
+<signal name="N$7">
+<contactref element="U1" pad="4"/>
+<contactref element="R5" pad="2"/>
+<wire x1="-0.4438" y1="7.1598" x2="-0.4438" y2="6.743" width="0.3048" layer="1"/>
+<wire x1="-0.4438" y1="6.743" x2="-0.1778" y2="6.477" width="0.3048" layer="1"/>
+<wire x1="-0.1778" y1="6.477" x2="3.2394" y2="6.477" width="0.3048" layer="1"/>
+<wire x1="3.2394" y1="6.477" x2="3.2648" y2="6.4516" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$8">
+<contactref element="U1" pad="8"/>
+<contactref element="R6" pad="1"/>
+<wire x1="-1.9438" y1="9.9598" x2="-1.9438" y2="10.4528" width="0.3048" layer="1"/>
+<wire x1="-1.9438" y1="10.4528" x2="-2.159" y2="10.668" width="0.3048" layer="1"/>
+<wire x1="-2.159" y1="10.668" x2="-4.445" y2="10.668" width="0.3048" layer="1"/>
+<wire x1="-4.445" y1="10.668" x2="-5.1308" y2="9.9822" width="0.3048" layer="1"/>
+<wire x1="-5.1308" y1="9.9822" x2="-6.2366" y2="9.9822" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$9">
+<contactref element="U1" pad="6"/>
+<contactref element="R7" pad="1"/>
+<wire x1="-0.9438" y1="9.9598" x2="-0.9438" y2="11.1546" width="0.3048" layer="1"/>
+<wire x1="-0.9438" y1="11.1546" x2="-1.4986" y2="11.7094" width="0.3048" layer="1"/>
+<wire x1="-1.4986" y1="11.7094" x2="-3.7338" y2="11.7094" width="0.3048" layer="1"/>
+<wire x1="-3.7338" y1="11.7094" x2="-4.191" y2="12.1666" width="0.3048" layer="1"/>
+<wire x1="-4.191" y1="12.1666" x2="-4.191" y2="13.6534" width="0.3048" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="U1" pad="5"/>
+<contactref element="R8" pad="1"/>
+<wire x1="-0.4438" y1="9.9598" x2="-0.4438" y2="12.0022" width="0.3048" layer="1"/>
+<wire x1="-0.4438" y1="12.0022" x2="-0.1524" y2="12.2936" width="0.3048" layer="1"/>
+<wire x1="-0.1524" y1="12.2936" x2="-0.1524" y2="13.628" width="0.3048" layer="1"/>
+</signal>
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
